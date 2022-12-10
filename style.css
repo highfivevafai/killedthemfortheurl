@@ -1,0 +1,165 @@
+:root {
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+a, button {
+  cursor: revert;
+  color: inherit;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+input, textarea {
+  -webkit-user-select: auto;
+}
+
+body {
+  margin: 0;
+  text-rendering: optimizespeed;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/* Global
+******************/
+@media (min-width: 480px) {
+.--killedthe-container  {
+    max-width: 730px;
+}
+}
+
+.--killedthe-container {
+  width: 100%;
+  margin: 0px auto;
+  max-width: 568px;
+  padding: 0px 12px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Images
+******************/
+.--killedthe-profileimg {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  margin-inline: auto;
+}
+
+.--killedthe-profileimg img{
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Background
+******************/
+#--killedthe-back {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1;
+  background: rgb(250, 245, 242);
+}
+
+/* Navbar
+******************/
+.--killedthenav {
+  width: 100%;
+  padding: 12px 0px;
+}
+
+/* Header
+******************/
+.--killedthe-header {
+  padding-bottom: 24px;
+}
+
+/* Links
+******************/
+.killitem-outer {
+  margin-top: 12px;
+}
+
+.killitem-inner {
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  box-shadow: none;
+  transition: background-color 0.2s ease 0s, color 0.2s ease 0s;
+  outline: none;
+  text-decoration: none;
+  min-height: 62px;
+  appearance: none;
+  width: 100%;
+  border: none;
+  border-radius: 16px;
+  overflow: initial;
+  padding: 20px;
+  pointer-events: initial;
+  z-index: 0;
+}
+
+.kill-pink {
+  background: rgb(254, 145, 140);
+}
+
+/* Main
+******************/
+.--killedthe-main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+  font-family: Lato;
+  color: rgb(51, 51, 51);
+}
+
+/* Footer
+******************/
+.--killed-the-footer {
+margin: 0px auto;
+width: fit-content;
+text-decoration: none;
+padding-top: 65px;
+padding-bottom: 95px;
+}
