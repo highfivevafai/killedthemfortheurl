@@ -148,6 +148,16 @@ h1 {
   font-weight: 500;
 }
 
+/* Give Mom
+******************/
+.killheart-outer {
+background: rgba(255, 255, 255, 0.2); 
+height: 48px; 
+width: 48px; 
+border-radius: 50%; 
+padding: 11px;
+}
+
 /* Main
 ******************/
 .--killedthe-main {
